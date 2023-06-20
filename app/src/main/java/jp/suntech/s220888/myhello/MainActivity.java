@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             int id = v.getId();
             if(id==R.id.btClick) {
                 String inputStr = input.getText().toString();
-                output.setText(inputStr + "さん、こんにちは!");
+                output.setText(inputStr + "さん、ご機嫌いかがですか");
             }else if(id ==R.id.btClear){
                 input.setText("");
                 output.setText("");
